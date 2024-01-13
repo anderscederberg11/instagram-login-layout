@@ -1,0 +1,37 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 20vh;
+}
+
+
+@media (max-width: 700px) {
+  .formContainer {
+    width: 100%;
+    max-width: none; 
+    height: auto; 
+}
+.loginButton{
+  width: 100%;
+}
+  
+}
+
+
+
+
+@media (min-width: 701px) and (max-width: 1120px) {
+  .formContainer {
+    width: 100%;
+    max-width: none; 
+    height: auto; 
+}
+.loginButton{
+  width: 100%;
+}
+
+  
+}
